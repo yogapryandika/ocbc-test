@@ -1,0 +1,35 @@
+.btn {
+  padding: 5px 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+
+  &-danger {
+    background-color: #ff4040;
+    color: #fff;
+    transition: all .2s;
+
+    &:hover {
+      background-color: #b62f2f
+    }
+
+    &:active {
+      background-color: #ff4040;
+    }
+  }
+
+  &-success {
+    background-color: #30aa4a;
+    color: #fff;
+    transition: all .2s;
+
+    &:hover {
+      background-color: #227534
+    }
+
+    &:active {
+      background-color: #30aa4a;
+    }
+  }
+}

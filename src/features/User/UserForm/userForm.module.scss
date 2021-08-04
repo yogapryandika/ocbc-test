@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  justify-content: center;
+
+  .formWrapper {
+
+    label {
+      display: block;
+    }
+
+    input {
+      padding: 5px 10px;
+      font-size: 16px;
+      border: 1px solid #d4d4d4;
+      border-radius: 5px;
+      color: #707070;
+      outline: none;
+      transition: all .2s;
+
+      &::placeholder {
+        color: #d4d4d4;
+      }
+
+      &:focus {
+        border: 1px solid #6983a594;
+        box-shadow: 0 2px 5px #5c7ba357;
+      }
+
+      &[type=submit] {
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+
+    button {
+      padding: 7px 10px;
+      margin-left: 30px;
+      font-weight: 700;
+      border-radius: 5px;
+    }
+  }
+
+}
